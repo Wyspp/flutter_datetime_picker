@@ -487,7 +487,7 @@ class _DatePickerState extends State<_DatePickerComponent> {
             height: theme.titleHeight,
             child: CupertinoButton(
               pressedOpacity: 0.3,
-              padding: EdgeInsetsDirectional.only(start: 16, top: 0),
+              padding: EdgeInsetsDirectional.only(start: 20, top: 0),
               child: Text(
                 '$cancel',
                 style: theme.cancelStyle,
@@ -504,7 +504,7 @@ class _DatePickerState extends State<_DatePickerComponent> {
             height: theme.titleHeight,
             child: CupertinoButton(
               pressedOpacity: 0.3,
-              padding: EdgeInsetsDirectional.only(end: 16, top: 0),
+              padding: EdgeInsetsDirectional.only(end: 20, top: 0),
               child: Text(
                 '$done',
                 style: theme.doneStyle,
